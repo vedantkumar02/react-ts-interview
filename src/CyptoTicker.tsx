@@ -112,7 +112,7 @@ function TickerCard({ coin, ticker }: { coin: string; ticker: TickerState }) {
         <div>
           <p>${ticker.price.toLocaleString()}</p>
 
-          <p className={isPositive ? "green" : "red"}>
+          <p className={isPositive ? "text-emerald-400" : "text-red-400"}>
             {isPositive ? "+" : ""}
             {delta}
           </p>
